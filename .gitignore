@@ -1,0 +1,8 @@
+# Custom
+/config.json
+
+# Virtual Env
+venv
+
+# Cache
+.idea/
