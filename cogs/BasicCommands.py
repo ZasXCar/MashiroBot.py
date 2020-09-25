@@ -21,8 +21,8 @@ class BasicCommands(commands.Cog):
     async def add(self, ctx, left: int, right: int):
         await ctx.send(f'`{left} + {right} = {left + right}`')
 
-    @commands.command(aliases=['8ball', 'ask'])
-    async def _8ball(self, ctx, *, question=None):
+    @commands.command(aliases=['8ball'])
+    async def ask(self, ctx, *, question=None):
         file = open("botdata.json", "r")
         intents = json.load(file)
         if question is None:
