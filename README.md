@@ -1,4 +1,4 @@
 <p align="center"><img src="Mashiro.jpg" width="360"></p>
 
 ## MashiroBot.py
-A Python version of the previous Java Discord Bot that I made. This bot uses the discord.py API.
+A Discord bot that uses Moe-ka's NHentai API wrapper to do cool things. This bot uses the discord.py API.
