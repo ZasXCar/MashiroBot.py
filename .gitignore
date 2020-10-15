@@ -1,5 +1,6 @@
 # Custom
 /config.json
+/.gitignore
 
 # Virtual Env
 venv
