@@ -25,7 +25,7 @@ class Script(commands.Cog):
                     if line == '\n':
                         pass
                     else:
-                        await asyncio.sleep(4)
+                        await asyncio.sleep(0.3)
                         await ctx.send(line)
 
                 end = time.time()

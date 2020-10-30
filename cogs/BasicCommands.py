@@ -14,10 +14,6 @@ class BasicCommands(commands.Cog):
         print("MashiroBot is online.")
 
     @commands.command()
-    async def ping(self, ctx):
-        await ctx.send("pong!")
-
-    @commands.command()
     async def add(self, ctx, left: int, right: int):
         await ctx.send(f'`{left} + {right} = {left + right}`')
 
